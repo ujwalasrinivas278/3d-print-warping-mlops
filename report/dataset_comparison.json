@@ -1,0 +1,26 @@
+{
+  "v1": {
+    "records": 500,
+    "mean_printing_speed": 59.9,
+    "mean_bed_temperature": 74.417,
+    "defect_count": 209,
+    "defect_percentage": 41.8,
+    "materials": {
+      "PLA": 228,
+      "ABS": 149,
+      "PETG": 123
+    }
+  },
+  "v2": {
+    "records": 500,
+    "mean_printing_speed": 68.5,
+    "mean_bed_temperature": 65.017,
+    "defect_count": 260,
+    "defect_percentage": 52.0,
+    "materials": {
+      "PLA": 237,
+      "ABS": 137,
+      "PETG": 126
+    }
+  }
+}

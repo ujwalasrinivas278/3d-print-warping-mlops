@@ -1,0 +1,41 @@
+{
+  "synthetic": true,
+  "purpose": "educational experimentation only; not for manufacturing decisions",
+  "features": [
+    "material",
+    "nozzle_temperature",
+    "bed_temperature",
+    "printing_speed",
+    "ambient_temperature",
+    "fan_speed",
+    "base_area",
+    "layer_height"
+  ],
+  "target": "warping_defect",
+  "versions": {
+    "v1": {
+      "records": 500,
+      "target_distribution": {
+        "No": 291,
+        "Yes": 209
+      },
+      "material_distribution": {
+        "PLA": 228,
+        "ABS": 149,
+        "PETG": 123
+      }
+    },
+    "v2": {
+      "records": 500,
+      "target_distribution": {
+        "Yes": 260,
+        "No": 240
+      },
+      "material_distribution": {
+        "PLA": 237,
+        "ABS": 137,
+        "PETG": 126
+      }
+    }
+  }
+}

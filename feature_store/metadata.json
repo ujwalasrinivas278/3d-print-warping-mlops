@@ -1,0 +1,11 @@
+{
+  "feature_logic_version": "1.0",
+  "engineered_features": [
+    "nozzle_bed_temperature_difference",
+    "cooling_stress_index"
+  ],
+  "source_versions": [
+    "v1",
+    "v2"
+  ]
+}
